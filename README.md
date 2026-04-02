@@ -122,8 +122,15 @@ This project is already configured for automatic deployment using:
 
 ## 🔌 APIs Used
 
-- 🌐 Open-Meteo Geocoding API (city search)
-- 🌦️ Open-Meteo Forecast API (current + daily weather)
+- 🌐 **Open-Meteo Geocoding API**
+	- Endpoint: `https://geocoding-api.open-meteo.com/v1/search`
+	- Purpose: Search city names and get latitude/longitude.
+	- Parameters used: `name`, `count`, `language=en`, `format=json`
+
+- 🌦️ **Open-Meteo Forecast API**
+	- Endpoint: `https://api.open-meteo.com/v1/forecast`
+	- Purpose: Fetch current weather and 5-day forecast.
+	- Parameters used: `latitude`, `longitude`, `current`, `daily`, `timezone=auto`, `forecast_days=6`
 
 No API key is required.
 
