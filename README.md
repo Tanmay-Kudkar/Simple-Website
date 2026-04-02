@@ -1,16 +1,143 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌤️ Weather Atelier
 
-Currently, two official plugins are available:
+### A modern weather information website built with React, Vite, and Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-19-0f172a?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8-155e75?logo=vite)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-0891b2?logo=tailwindcss)](https://tailwindcss.com/)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/Tanmay-Kudkar/Simple-Website/static.yml?label=GitHub%20Pages)](https://github.com/Tanmay-Kudkar/Simple-Website/actions/workflows/static.yml)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Weather Atelier is a clean and stylish weather dashboard that helps users check live weather data for cities around the world.
+It includes quick city search, current weather highlights, and a 5-day forecast in a responsive, mobile-friendly interface.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://tanmay-kudkar.github.io/Simple-Website/
+
+---
+
+## 🌟 Features
+
+- 🔎 Smart city search with suggestion dropdown
+- 🌡️ Current weather details (temperature and feels-like)
+- 💧 Humidity and 💨 wind speed metrics
+- 🌅 Sunrise and 🌇 sunset timings
+- 🗓️ 5-day forecast cards with weather labels
+- ⚠️ Friendly popup notifications for invalid searches/errors
+- 📱 Fully responsive UI for mobile and desktop
+- ⚡ Fast loading and production builds with Vite
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools |
+| --- | --- |
+| Frontend | React 19 |
+| Styling | Tailwind CSS 4 + custom CSS animations |
+| Build Tool | Vite 8 |
+| Linting | ESLint 9 |
+| Weather Data | Open-Meteo APIs |
+| Deployment | GitHub Pages via GitHub Actions |
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── .github/workflows/static.yml
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Tanmay-Kudkar/Simple-Website.git
+cd Simple-Website
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+### 5. Run lint checks
+
+```bash
+npm run lint
+```
+
+---
+
+## 🌍 Deployment (GitHub Pages)
+
+This project is already configured for automatic deployment using:
+
+- GitHub Actions workflow: `.github/workflows/static.yml`
+- Deployment target: GitHub Pages
+
+### Deploy steps
+
+1. Push changes to `main` branch.
+2. Open the **Actions** tab in GitHub.
+3. Run or re-run **Deploy Vite site to Pages** workflow.
+4. After successful build and deploy, open the Pages URL.
+
+---
+
+## 🔌 APIs Used
+
+- 🌐 Open-Meteo Geocoding API (city search)
+- 🌦️ Open-Meteo Forecast API (current + daily weather)
+
+No API key is required.
+
+---
+
+## 🧠 Future Improvements
+
+- 🌡️ Toggle between Celsius and Fahrenheit
+- 📊 Hourly weather charts
+- 📍 Save favorite cities
+- 🌙 Theme switcher (light/dark)
+
+---
+
+## 👨‍💻 Author
+
+Made with care by **Tanmay Kudkar**.
