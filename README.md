@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌤️ Weather Atelier
+# 🌤️ Weather Info Webapp
 
 ### A modern weather information website built with React, Vite, and Tailwind CSS
 
